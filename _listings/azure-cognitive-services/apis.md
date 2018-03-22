@@ -4,7 +4,7 @@ description: Enable natural and contextual interaction with tools that augment u
   experiences using the power of machine-based intelligence. Tap into an ever-growing
   collection of powerful artificial intelligence algorithms for vision, speech, language,
   and knowledge.
-image: ""
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
 x-kinRank: "10"
 x-alexaRank: ""
 tags:
@@ -12,15 +12,15 @@ tags:
 - Microsoft
 - Machine Learning
 - Cognitive
-created: "2018-03-14"
-modified: "2018-03-14"
+created: "2018-03-21"
+modified: "2018-03-21"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Cognitive Services
   description: Enable natural and contextual interaction with tools that augment users
     experiences using the power of machine-based intelligence
-  image: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
   humanURL: ""
   baseURL: ://management.azure.com//
   tags:
