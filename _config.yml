@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: azure-cognitive-services.api.streamdata.gallery
+title: Streamdata Gallery Azure Cognitive Services
+url: azure-cognitive-services.streamdata.gallery
 tag: Azure Cognitive Services
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: azure-cognitive-services
 github_branch: master
 collections:
