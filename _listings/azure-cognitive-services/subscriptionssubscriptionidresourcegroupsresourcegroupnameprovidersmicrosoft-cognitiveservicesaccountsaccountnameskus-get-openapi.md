@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure Cognitive Services
-x-complete: 1
+x-complete: 0
 info:
-  title: CognitiveServicesManagementClient
-  description: cognitive-services-management-client
+  title: Azure Cognitive Services Cognitive Services Accounts List Skus
+  description: List available SKUs for the requested Cognitive Services account
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -202,37 +202,17 @@ paths:
           description: OK
       tags:
       - Cognitive Service
-  /providers/Microsoft.CognitiveServices/operations:
-    get:
-      summary: Operations List
-      description: Lists all the available Cognitive Services account operations.
-      operationId: Operations_List
-      x-api-path-slug: providersmicrosoft-cognitiveservicesoperations-get
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Operation
-  /subscriptions/{subscriptionId}/providers/Microsoft.CognitiveServices/locations/{location}/checkSkuAvailability:
-    post:
-      summary: Check Sku Availability List
-      description: Check available SKUs.
-      operationId: CheckSkuAvailability_List
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-cognitiveserviceslocationslocationcheckskuavailability-post
-      parameters:
-      - in: query
-        name: No Name
-      - in: body
-        name: parameters
-        description: Check SKU Availablity POST body
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - SKU
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---

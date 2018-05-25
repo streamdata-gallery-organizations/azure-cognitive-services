@@ -1,10 +1,10 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure Cognitive Services
-x-complete: 1
+x-complete: 0
 info:
-  title: CognitiveServicesManagementClient
-  description: cognitive-services-management-client
+  title: Azure Cognitive Services Cognitive Services Accounts List Keys
+  description: Lists the account keys for the specified Cognitive Services account.
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -156,83 +156,17 @@ paths:
           description: OK
       tags:
       - Cognitive Service
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CognitiveServices/accounts/{accountName}/regenerateKey
-  : post:
-      summary: Cognitive Services Accounts Regenerate Key
-      description: Regenerates the specified account key for the specified Cognitive
-        Services account.
-      operationId: CognitiveServicesAccounts_RegenerateKey
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccountsaccountnameregeneratekey-post
-      parameters:
-      - in: path
-        name: accountName
-        description: The name of Cognitive Services account
-      - in: query
-        name: No Name
-      - in: body
-        name: parameters
-        description: regenerate key parameters
-        schema:
-          $ref: '#/definitions/holder'
-      - in: path
-        name: resourceGroupName
-        description: The name of the resource group within the users subscription
-      responses:
-        200:
-          description: OK
-      tags:
-      - Cognitive Service
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CognitiveServices/accounts/{accountName}/skus
-  : get:
-      summary: Cognitive Services Accounts List Skus
-      description: List available SKUs for the requested Cognitive Services account
-      operationId: CognitiveServicesAccounts_ListSkus
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccountsaccountnameskus-get
-      parameters:
-      - in: path
-        name: accountName
-        description: The name of Cognitive Services account
-      - in: query
-        name: No Name
-      - in: path
-        name: resourceGroupName
-        description: The name of the resource group within the users subscription
-      responses:
-        200:
-          description: OK
-      tags:
-      - Cognitive Service
-  /providers/Microsoft.CognitiveServices/operations:
-    get:
-      summary: Operations List
-      description: Lists all the available Cognitive Services account operations.
-      operationId: Operations_List
-      x-api-path-slug: providersmicrosoft-cognitiveservicesoperations-get
-      parameters:
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Operation
-  /subscriptions/{subscriptionId}/providers/Microsoft.CognitiveServices/locations/{location}/checkSkuAvailability:
-    post:
-      summary: Check Sku Availability List
-      description: Check available SKUs.
-      operationId: CheckSkuAvailability_List
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-cognitiveserviceslocationslocationcheckskuavailability-post
-      parameters:
-      - in: query
-        name: No Name
-      - in: body
-        name: parameters
-        description: Check SKU Availablity POST body
-        schema:
-          $ref: '#/definitions/holder'
-      responses:
-        200:
-          description: OK
-      tags:
-      - SKU
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---

@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: ""
 tags: Azure Cognitive Services
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/apis.md
 specificationVersion: "0.14"
 apis:
@@ -25,7 +25,7 @@ apis:
   tags: Cognitive Service
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcognitiveservicesaccountsaccountname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccountsaccountname-put-openapi.md
 - name: Azure Cognitive Services Cognitive Services Accounts Update
   x-api-slug: azure-cognitive-services
   description: Updates a Cognitive Services account
@@ -35,7 +35,7 @@ apis:
   tags: Cognitive Service
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcognitiveservicesaccountsaccountname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccountsaccountname-patch-openapi.md
 - name: Azure Cognitive Services Cognitive Services Accounts Delete
   x-api-slug: azure-cognitive-services
   description: Deletes a Cognitive Services account from the resource group.
@@ -45,9 +45,9 @@ apis:
   tags: Cognitive Service
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcognitiveservicesaccountsaccountname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccountsaccountname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcognitiveservicesaccountsaccountname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccountsaccountname-delete-openapi.md
 - name: Azure Cognitive Services Cognitive Services Accounts Get Properties
   x-api-slug: azure-cognitive-services
   description: Returns a Cognitive Services account specified by the parameters.
@@ -57,9 +57,9 @@ apis:
   tags: Cognitive Service
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcognitiveservicesaccountsaccountname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccountsaccountname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcognitiveservicesaccountsaccountname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccountsaccountname-get-openapi.md
 - name: Azure Cognitive Services Accounts List By Resource Group
   x-api-slug: azure-cognitive-services
   description: Returns all the resources of a particular type belonging to a resource
@@ -70,7 +70,7 @@ apis:
   tags: Account
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcognitiveservicesaccounts-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccounts-get-openapi.md
 - name: Azure Cognitive Services Accounts List
   x-api-slug: azure-cognitive-services
   description: Returns all the resources of a particular type belonging to a subscription.
@@ -80,7 +80,7 @@ apis:
   tags: Account
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidprovidersmicrosoftcognitiveservicesaccounts-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidprovidersmicrosoft-cognitiveservicesaccounts-get-openapi.md
 - name: Azure Cognitive Services Cognitive Services Accounts List Keys
   x-api-slug: azure-cognitive-services
   description: Lists the account keys for the specified Cognitive Services account.
@@ -90,9 +90,9 @@ apis:
   tags: Cognitive Service
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcognitiveservicesaccountsaccountnamelistkeys-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccountsaccountnamelistkeys-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcognitiveservicesaccountsaccountnamelistkeys-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccountsaccountnamelistkeys-post-openapi.md
 - name: Azure Cognitive Services Cognitive Services Accounts Regenerate Key
   x-api-slug: azure-cognitive-services
   description: Regenerates the specified account key for the specified Cognitive Services
@@ -103,7 +103,7 @@ apis:
   tags: Cognitive Service
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcognitiveservicesaccountsaccountnameregeneratekey-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccountsaccountnameregeneratekey-post-openapi.md
 - name: Azure Cognitive Services Cognitive Services Accounts List Skus
   x-api-slug: azure-cognitive-services
   description: List available SKUs for the requested Cognitive Services account
@@ -113,9 +113,9 @@ apis:
   tags: Cognitive Service
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcognitiveservicesaccountsaccountnameskus-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccountsaccountnameskus-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftcognitiveservicesaccountsaccountnameskus-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccountsaccountnameskus-get-openapi.md
 - name: Azure Cognitive Services Operations List
   x-api-slug: azure-cognitive-services
   description: Lists all the available Cognitive Services account operations.
@@ -125,7 +125,7 @@ apis:
   tags: Operation
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/providersmicrosoftcognitiveservicesoperations-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/providersmicrosoft-cognitiveservicesoperations-get-openapi.md
 - name: Azure Cognitive Services Check Sku Availability List
   x-api-slug: azure-cognitive-services
   description: Check available SKUs.
@@ -135,7 +135,7 @@ apis:
   tags: SKU
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidprovidersmicrosoftcognitiveserviceslocationslocationcheckskuavailability-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidprovidersmicrosoft-cognitiveserviceslocationslocationcheckskuavailability-post-openapi.md
 - name: Azure Cognitive Services
   x-api-slug: azure-cognitive-services
   description: Enable natural and contextual interaction with tools that augment users
