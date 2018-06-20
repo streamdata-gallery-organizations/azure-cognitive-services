@@ -7,10 +7,10 @@ description: Enable natural and contextual interaction with tools that augment u
   and knowledge.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Azure Cognitive Services
-created: "2018-05-24"
-modified: "2018-05-24"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/apis.md
 specificationVersion: "0.14"
 apis:
@@ -22,7 +22,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
   humanURL: https://azure.microsoft.com/en-us/services/cognitive-services/
   baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CognitiveServices/accounts/{accountName}
-  tags: Cognitive Service
+  tags: Machine Learning,Cognitive Service
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccountsaccountname-put-openapi.md
@@ -32,7 +32,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
   humanURL: https://azure.microsoft.com/en-us/services/cognitive-services/
   baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CognitiveServices/accounts/{accountName}
-  tags: Cognitive Service
+  tags: Machine Learning,Cognitive Service
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccountsaccountname-patch-openapi.md
@@ -42,7 +42,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
   humanURL: https://azure.microsoft.com/en-us/services/cognitive-services/
   baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CognitiveServices/accounts/{accountName}
-  tags: Cognitive Service
+  tags: Machine Learning,Cognitive Service
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccountsaccountname-delete-postman.md
@@ -54,7 +54,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
   humanURL: https://azure.microsoft.com/en-us/services/cognitive-services/
   baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CognitiveServices/accounts/{accountName}
-  tags: Cognitive Service
+  tags: Machine Learning,Cognitive Service
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccountsaccountname-get-postman.md
@@ -67,7 +67,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
   humanURL: https://azure.microsoft.com/en-us/services/cognitive-services/
   baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CognitiveServices/accounts
-  tags: Account
+  tags: Machine Learning,Account
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccounts-get-openapi.md
@@ -77,7 +77,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
   humanURL: https://azure.microsoft.com/en-us/services/cognitive-services/
   baseURL: ://management.azure.com////subscriptions/{subscriptionId}/providers/Microsoft.CognitiveServices/accounts
-  tags: Account
+  tags: Machine Learning,Account
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidprovidersmicrosoft-cognitiveservicesaccounts-get-openapi.md
@@ -87,7 +87,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
   humanURL: https://azure.microsoft.com/en-us/services/cognitive-services/
   baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CognitiveServices/accounts/{accountName}/listKeys
-  tags: Cognitive Service
+  tags: Machine Learning,Cognitive Service
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccountsaccountnamelistkeys-post-postman.md
@@ -100,7 +100,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
   humanURL: https://azure.microsoft.com/en-us/services/cognitive-services/
   baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CognitiveServices/accounts/{accountName}/regenerateKey
-  tags: Cognitive Service
+  tags: Machine Learning,Cognitive Service
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccountsaccountnameregeneratekey-post-openapi.md
@@ -110,7 +110,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
   humanURL: https://azure.microsoft.com/en-us/services/cognitive-services/
   baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CognitiveServices/accounts/{accountName}/skus
-  tags: Cognitive Service
+  tags: Machine Learning,Cognitive Service
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-cognitiveservicesaccountsaccountnameskus-get-postman.md
@@ -122,7 +122,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
   humanURL: https://azure.microsoft.com/en-us/services/cognitive-services/
   baseURL: ://management.azure.com////providers/Microsoft.CognitiveServices/operations
-  tags: Operation
+  tags: Machine Learning,Operation
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/providersmicrosoft-cognitiveservicesoperations-get-openapi.md
@@ -132,7 +132,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png
   humanURL: https://azure.microsoft.com/en-us/services/cognitive-services/
   baseURL: ://management.azure.com////subscriptions/{subscriptionId}/providers/Microsoft.CognitiveServices/locations/{location}/checkSkuAvailability
-  tags: SKU
+  tags: Machine Learning,SKU
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/subscriptionssubscriptionidprovidersmicrosoft-cognitiveserviceslocationslocationcheckskuavailability-post-openapi.md

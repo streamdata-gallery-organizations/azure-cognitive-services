@@ -42,6 +42,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Cognitive Service
     patch:
       summary: Cognitive Services Accounts Update
@@ -66,6 +67,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Cognitive Service
     delete:
       summary: Cognitive Services Accounts Delete
@@ -85,6 +87,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Cognitive Service
     get:
       summary: Cognitive Services Accounts Get Properties
@@ -104,6 +107,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Cognitive Service
   /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.CognitiveServices/accounts:
     get:
@@ -122,6 +126,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Account
 x-streamrank:
   polling_total_time_average: 0
