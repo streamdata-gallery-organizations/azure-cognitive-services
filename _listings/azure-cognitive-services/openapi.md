@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Azure Cognitive Services
 x-complete: 1
@@ -246,4 +245,3 @@ paths:
       tags:
       - Machine Learning
       - SKU
----

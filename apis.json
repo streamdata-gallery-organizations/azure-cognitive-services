@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Azure Cognitive Services",
+	"description": "This is a repository of azure cognitive services APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/azure-cognitive-services.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://azure-cognitive-services.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Azure Cognitive Services",
+			"x-api-slug": "azure-cognitive-services",
+			"description": "Enable natural and contextual interaction with tools that augment users experiences using the power of machine-based intelligence. Tap into an ever-growing collection of powerful artificial intelligence algorithms for vision, speech, language, and knowledge.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/cognitive-services.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/cognitive-services/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Azure Cognitive Services",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Azure Cognitive Services",
+	"include": [
+		{
+			"name": "Azure Cognitive Services",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-cognitive-services/master/_listings/azure-cognitive-services/apis.yaml"
+		}
+	]
+}
